@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="number_icon">a simple vector asset representing icon</string>
+    <string name="placeholder_number">42</string>
+    <string name="input_hint">choose a starting number</string>
+    <string name="Button_text">Submit</string>
+    <string name="random_button_text">submit a random starting number</string>
+    <string name="decrement_text" />
+    <string name="decrement_texts">-</string>
+    <string name="increment_text">+</string>
+    <string name="placeholder_interval">1</string>
+    <string name="placeholder_summary">Your current operation will be displayed here</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="PurpleDaffodil">#B041FF</color>
+    <color name="Purple">#8E35EF</color>
+    <color name="DarkViolet">#842DCE</color>
+    <color name="BrightNeonPink">#F433FF</color>
+    <color name="PinkLemonade">#E4287C</color>
+    <color name="CottonCandy">#FCDFFF</color>
+    <color name="LoveRed">#E41B17</color>
+    <color name="YellowGreen">#52D017</color>
+    <color name="FerrariRed">#F70D1A</color>
+    <color name="PlumVelvet">#7D0552</color>
+    <color name="LovelyPurple">#7F38EC</color>
+    <color name="PurpleIris">#571B7E</color>
+</resources>
