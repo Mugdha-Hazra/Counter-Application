@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apic"
+    android:gravity="center_horizontal|center_vertical|fill_vertical"
+    android:orientation="vertical"
+    android:padding="13dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_activity_iv_number"
+        android:layout_width="377dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/number_icon"
+        app:srcCompat="@drawable/ic_baseline_filter_9_plus_24" />
+
+    <TextView
+        android:id="@+id/main_activity_tv_number"
+        android:layout_width="375dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="@string/placeholder_number"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="72sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/main_activity_et_number_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="@font/autour_one"
+            android:hint="@string/input_hint"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="@color/LoveRed"
+            android:textColorHint="@color/PurpleDaffodil"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/main_activity_bt_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/BrightNeonPink"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/Button_text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_activity_bt_random_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/PurpleIris"
+        android:fontFamily="@font/concert_one"
+        android:text="@string/random_button_text"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_activity_bt_decrement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Purple"
+            android:fontFamily="@font/chango"
+            android:text="@string/decrement_texts"
+            android:textColor="@color/CottonCandy"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/main_activity_et_interval"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="3"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/placeholder_interval"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="@color/FerrariRed"
+            android:textColorHint="@color/DarkViolet"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/main_activity_bt_increment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Purple"
+            android:fontFamily="@font/chango"
+            android:text="@string/increment_text"
+            android:textColor="@color/CottonCandy"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_activity_tv_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/placeholder_summary"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/PlumVelvet"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
